@@ -1,12 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using EFCRUDApp.Database;
+using EFCRUDApp.Database.Repositories;
+
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
 using System.Windows;
 
-using Task2.Database.Repositories;
-using Task2.DB;
-
-namespace Task2
+namespace EFCRUDApp
 {
     /// <summary>
     /// Interaction logic for App.xaml

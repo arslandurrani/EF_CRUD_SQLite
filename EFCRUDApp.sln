@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2", "Task2\Task2.csproj", "{33B6607E-4587-464E-B2BF-37441D35BBEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCRUDApp", "EFCRUDApp\EFCRUDApp.csproj", "{61D0B187-6459-4416-9BEA-2DF8F223271F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{33B6607E-4587-464E-B2BF-37441D35BBEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{33B6607E-4587-464E-B2BF-37441D35BBEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{33B6607E-4587-464E-B2BF-37441D35BBEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{33B6607E-4587-464E-B2BF-37441D35BBEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61D0B187-6459-4416-9BEA-2DF8F223271F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61D0B187-6459-4416-9BEA-2DF8F223271F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61D0B187-6459-4416-9BEA-2DF8F223271F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61D0B187-6459-4416-9BEA-2DF8F223271F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

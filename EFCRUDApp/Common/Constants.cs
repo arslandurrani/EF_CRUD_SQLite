@@ -1,4 +1,4 @@
-﻿namespace Task2.Common;
+﻿namespace EFCRUDApp.Common;
 
 public class Constants
 {

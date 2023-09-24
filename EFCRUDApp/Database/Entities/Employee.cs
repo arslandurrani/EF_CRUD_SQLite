@@ -1,4 +1,4 @@
-﻿namespace Task2.Database.Entities;
+﻿namespace EFCRUDApp.Database.Entities;
 
 public class Employee
 {

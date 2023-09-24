@@ -1,13 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using EFCRUDApp.Database.Entities;
+
+using Microsoft.EntityFrameworkCore;
 
 using System.Linq;
 using System.Threading.Tasks;
 
-using Task2.Database.Entities;
-
-using Task2.DB;
-
-namespace Task2.Database.Repositories;
+namespace EFCRUDApp.Database.Repositories;
 
 public class EmployeeRepository
 {
@@ -19,7 +17,7 @@ public class EmployeeRepository
     }
 
     public async Task CreateEmployeeAsync(Employee employee)
-    {        
+    {
         await _dbContext.Employee.AddAsync(employee);
         await _dbContext.SaveChangesAsync();
     }

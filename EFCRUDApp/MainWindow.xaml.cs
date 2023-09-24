@@ -1,10 +1,10 @@
-﻿using System.Linq;
+﻿using EFCRUDApp.Database.Entities;
+using EFCRUDApp.Database.Repositories;
+
+using System.Linq;
 using System.Windows;
 
-using Task2.Database.Entities;
-using Task2.Database.Repositories;
-
-namespace Task2
+namespace EFCRUDApp
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

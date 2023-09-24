@@ -1,9 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using EFCRUDApp.Common;
+using EFCRUDApp.Database.Entities;
 
-using Task2.Common;
-using Task2.Database.Entities;
+using Microsoft.EntityFrameworkCore;
 
-namespace Task2.DB;
+namespace EFCRUDApp.Database;
 
 public class AppDbContext : DbContext
 {

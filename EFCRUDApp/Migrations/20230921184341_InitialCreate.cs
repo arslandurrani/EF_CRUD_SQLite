@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace Task2.Migrations
+namespace EFCRUDApp.Migrations
 {
     /// <inheritdoc />
     public partial class InitialCreate : Migration
