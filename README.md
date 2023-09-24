@@ -1,10 +1,9 @@
-# Task2
+# WPF - CRUD Application using EntityFrameworkCore and SQLite 
 
-Application details 
+## Project Detail
+- Created on VS 2022 using C# .NET 6 WPF
+- EF as ORM and SQLite for DB storage
 
-NOTEs: 
-
-. I am using SQLite as a DB
-. EF core as an ORM.
-. no need to run any migration/update to create a DB, The DB will created automatically in the bin folder
-. just the App
+### How to Run
+- No need to run any migration/update to create a DB, The DB will created automatically in the bin folder
+- Just Run the App
